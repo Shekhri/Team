@@ -1,0 +1,64 @@
+.hero__input{
+    width: 1020px;
+    height: 60px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    color: #858584;
+    font-size: 16px;
+    font-family: Work+Sans;
+    font-weight: 400;
+    line-height: 22.40px;
+    word-wrap: break-word;
+    border: none;
+    color: #858584;
+    background-color: #2B2B2B;
+    border: 1px solid#858584;
+    margin-top: 30px;
+    
+}
+.nft__ul--li-img{
+    width: 100%;
+    width: 330px;
+    height: 295px;
+}
+.nft__ul--li-image{
+    width: 100%;
+    width: 24px;
+    height: 24px;
+}
+.nft-top{
+    display: flex;
+}
+.nft__bottom{
+    display: flex;
+   
+}
+.nft__p{
+    
+color: white;
+ font-size: 16px;
+ font-family: Work Sans;
+ font-weight: 600;
+ text-transform: capitalize;
+ line-height: 22.40px;
+ word-wrap: break-word;
+}
+.nft__p-active{
+color: #858584;
+ font-size: 16px;
+ font-family: Work Sans;
+ font-weight: 600;
+ text-transform: capitalize;
+ line-height: 22.40px;
+ word-wrap: break-word;
+ }
+ .nft__ul--li{
+   
+color: #858584;
+ font-size: 16px;
+ font-family: Work Sans;
+ font-weight: 600;
+ text-transform: capitalize;
+ line-height: 22.40px;
+ word-wrap: break-word
+ }
