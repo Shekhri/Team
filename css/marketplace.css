@@ -5,7 +5,7 @@
     padding: 20px 20px;
     color: #858584;
     font-size: 16px;
-    font-family: Work+Sans;
+    font-family: Work Sans;
     font-weight: 400;
     line-height: 22.40px;
     word-wrap: break-word;
@@ -18,7 +18,7 @@
 }
 .nft__ul--li-img{
     width: 100%;
-    width: 330px;
+    width: 325px;
     height: 295px;
 }
 .nft__ul--li-image{
@@ -53,12 +53,83 @@ color: #858584;
  word-wrap: break-word;
  }
  .nft__ul--li{
-   
-color: #858584;
+   width: 325px;
+ color: #858584;
  font-size: 16px;
  font-family: Work Sans;
  font-weight: 600;
  text-transform: capitalize;
  line-height: 22.40px;
- word-wrap: break-word
+ word-wrap: break-word;
+ height: auto 173px;
+ background-color: #2B2B2B;
+ border-radius: 15px;
+ margin-left: 15px;
+
  }
+ .nft__ul--li-p{
+    
+ color: white;
+ font-size: 22px;
+ font-family: Work Sans;
+ font-weight: 600;
+ text-transform: capitalize;
+ line-height: 30.80px;
+ word-wrap: break-word;
+ }
+ .nft__ul--li-p-a{
+
+color: white;
+ font-size: 16px;
+ font-family: Space Mono;
+ font-weight: 400;
+ line-height: 22.40px;
+ word-wrap: break-word;
+ }
+ .right{
+  
+    width: 130px;
+   
+ }
+ .nft__bottom{
+    padding-top: 40px;
+    align-items: center;
+   
+ }
+ .nft__ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+ .all{
+    padding: 30px 30px;
+ }
+ .left{
+    width: 130px;
+    padding-left: 0px;
+    
+ }
+ .nft-top{
+    margin-top: 15px;
+ }
+ .nft{
+    
+    background-color: #3B3B3B;
+    
+    
+ }
+ .nft__section{
+    margin-top: 30px;
+ }
+ .nft-top-m{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+ }
+ .container{
+    max-width: 1046px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
