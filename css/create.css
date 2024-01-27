@@ -1,0 +1,63 @@
+/* Main component start */
+.main{
+    display: flex;
+}
+.main__right--component-h1{
+color: var(--White, #FFF);
+/* H2 - Work Sans */
+font-family: "Work Sans";
+font-size: 51px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 56.1px */
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.main__right--component-p{
+color: var(--White, #FFF);
+/* Body Text- Work Sans */
+font-family: "Work Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 35.2px */
+text-transform: capitalize;
+}
+.main__right--component{
+    width: 540px;
+    margin-top: 100px;
+    padding-left: 60px;
+}
+.main__right--component-form-input{
+    width: 320px;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 15px;
+    align-items: center;
+    padding-left: 40px;
+}
+.bx-user-circle{
+    width: 12px;
+    height: 12px;
+    transform: translateX(40px);
+    }
+.bx-envelope{
+    width: 12px;
+    height: 12px;
+    transform: translateX(40px);
+}
+.bx-lock-alt{
+    width: 12px;
+    height: 12px;
+    transform: translateX(40px);
+}
+.main__right--component-form-button{
+    width: 320px;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 18px;
+    background-color: #A259FF;
+    color: #FFF;
+}
