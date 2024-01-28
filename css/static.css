@@ -30,6 +30,9 @@ a{
     margin: 0 auto;
     padding: 0 10px;
 }
+button{
+    cursor: pointer;
+}
 /* header component's style start */
 .header{
     margin: 25px 0;
