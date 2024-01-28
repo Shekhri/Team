@@ -1,6 +1,7 @@
 /* Main component start */
 .main{
     display: flex;
+    margin-bottom: 80px;
 }
 .main__right--component-h1{
 color: var(--White, #FFF);
