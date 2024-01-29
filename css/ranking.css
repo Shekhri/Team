@@ -10,17 +10,20 @@
     margin-top: 80px;
 
 }
-.all__sold--none-ul{
+
+.all__sold--none-ul {
     width: 1050px;
     height: 46px;
 }
-.all__sold--none-ul-li-p-a{
+
+.all__sold--none-ul-li-p-a {
     width: 430px;
     height: 22px;
     position: relative;
     left: 30px;
     top: 22px;
 }
+
 .hero__p {
 
     color: white;
@@ -318,6 +321,10 @@
         margin: 0 auto;
     }
 
+    .end {
+        display: none;
+    }
+
     .header__right {
         display: none;
     }
@@ -391,7 +398,7 @@
         margin-top: 20px;
         width: 690px;
         height: 60px;
-        
+
 
     }
 
@@ -463,20 +470,24 @@
     .small {
         display: none;
     }
-    .all__sold--none-li{
+
+    .all__sold--none-li {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .all__sold--none-ul-li-p-c{
+
+    .all__sold--none-ul-li-p-c {
         display: none;
     }
-    .all__sold--none-ul-li-p-a{
+
+    .all__sold--none-ul-li-p-a {
         display: flex;
         position: relative;
         right: -20px;
     }
-    .all__sold--none-ul-li-p{
+
+    .all__sold--none-ul-li-p {
         position: relative;
         left: 500px;
     }
@@ -580,24 +591,28 @@
         word-wrap: break-word;
         padding-right: 90px;
     }
-    .all__sold--none-li{
+
+    .all__sold--none-li {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 315px;
         height: 60px;
     }
-    .all__sold--none-ul-li-p-c{
+
+    .all__sold--none-ul-li-p-c {
         display: none;
     }
-    .all__sold--none-ul-li-p-a{
+
+    .all__sold--none-ul-li-p-a {
         display: flex;
         position: relative;
         right: -20px;
     }
-    .all__sold--none-ul-li-p{
+
+    .all__sold--none-ul-li-p {
         position: relative;
         left: 150px;
     }
-     
+
 }
