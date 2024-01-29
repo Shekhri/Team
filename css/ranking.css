@@ -278,12 +278,6 @@
     right: 220px;
 }
 
-.header__image {
-    display: none;
-    width: 24px;
-    height: 24px;
-}
-
 .all__sold--none-ul-li-small {
     position: relative;
     right: 86px;
@@ -308,13 +302,7 @@
         margin: 0 auto;
     }
 
-    .header__right {
-        display: none;
-    }
 
-    .header__image {
-        display: flex;
-    }
 
     .all__top--ul-li-p {
         color: #858584;
