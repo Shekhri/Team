@@ -1,0 +1,2669 @@
+/* hero component's style start */
+.hero {
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__left--h1 {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    /* 73.7px */
+    text-transform: capitalize;
+
+}
+
+.hero__left--p {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 35.2px */
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.hero__left--buttom {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 22.4px */
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: none;
+    margin: 30px 0;
+}
+
+.hero__right-bottom-top {
+    padding: 20px;
+}
+
+.hero__left--bottom {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__left--bottom-box-h3 {
+    color: var(--White, #FFF);
+    font-family: "Space Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 39.2px */
+    text-transform: capitalize;
+}
+
+.hero__left--bottom-box-p {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 23.99px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 38.384px */
+    text-transform: capitalize;
+}
+
+.hero__right {
+    width: 510px;
+    height: 510px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+
+.hero__right--h3 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 30.8px */
+    text-transform: capitalize;
+}
+
+.hero__right--bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hero__right--bottom-img {
+    width: 24px;
+    height: 24px;
+}
+
+.hero__right--bottom-p {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    margin-left: 12px;
+}
+
+.bx-rocket {
+    margin-right: 10px;
+}
+
+/* hero component's style end */
+
+/* trending component's style start */
+
+.trending__top--h2 {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 45.6px */
+    text-transform: capitalize;
+    margin-top: 160px;
+}
+
+.trending__top--p {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 35.2px */
+    text-transform: capitalize;
+}
+
+.trending__card--box-img {
+    width: 330px;
+    height: 330px;
+}
+
+.trending__card--box-center-img {
+    width: 100px;
+    height: 100px;
+}
+
+.trending__card--box-center-p {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 20px;
+    background-color: #A259FF;
+    padding: 32px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending__card--box {
+    width: 330px;
+}
+
+.trending__card--box-center {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.trending__card--box-center-p {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 30.8px */
+    text-transform: capitalize;
+}
+
+.trending__card--box-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.trending__card--box-bottom-img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.trending__card--box-bottom-p {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.trending__card--box-h3 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 30.8px */
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.trending__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* trending component's style end */
+
+/* creators component's style start */
+.creators__top {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.creators__top--left-h2 {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 45.6px */
+    text-transform: capitalize;
+}
+
+.creators__top--left-p {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 35.2px */
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.creators__top--button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 22.4px */
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid var(--Call-to-Action, #A259FF);
+    background-color: transparent;
+}
+
+.creators__card--box-top-number {
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2B2B2B;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creators__card--box {
+    width: 240px;
+    height: 238px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.creators__card--box-top-img {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.creators__card--box-h3 {
+    color: #FFF;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 30.8px */
+    text-transform: capitalize;
+}
+
+.creators__card--box-bottom-p {
+    color: var(--caption-label-text, #858584);
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.creators__card--box-bottom-h3 {
+    color: var(--Text, #FFF);
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.creators__card--box-top {
+    display: flex;
+    align-items: flex-start;
+}
+
+.creators__card--box-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creators__card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+/* creators component's style end */
+
+/* categories component's style start */
+.categories__h2 {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 45.6px */
+    text-transform: capitalize;
+    margin-top: 160px;
+}
+
+.categories__card {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.categories__card--box {
+    width: 240px;
+    height: 316px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.categories__card--box-h3 {
+    padding: 20px 30px;
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 30.8px */
+    text-transform: capitalize;
+}
+
+/* categories component's style end */
+
+/* nft component's style start */
+.nft__top {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nft__top--left-h2 {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 45.6px */
+    text-transform: capitalize;
+}
+
+.nft__top--left-p {
+    color: var(--White, #FFF);
+    margin-top: 10px;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 35.2px */
+    text-transform: capitalize;
+}
+
+.nft__top--button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 22.4px */
+    display: flex;
+    height: 60px;
+    width: 187px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid var(--Call-to-Action, #A259FF);
+    background-color: transparent;
+}
+
+.nft__top--button-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.nft__card {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft__card--box {
+    width: 330px;
+    height: 469px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+
+.nft__card--box-img {
+    width: 330px;
+    height: 296px;
+}
+
+.nft__card--box-bottom {
+    padding: 20px 30px;
+}
+
+.nft__card--box-h3 {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 30.8px */
+    text-transform: capitalize;
+}
+
+.nft__card--box-center-img {
+    width: 24px;
+    height: 24px;
+}
+
+.nft__card--box-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.nft__card--box-center-h3 {
+    color: var(--White, #FFF);
+    margin-left: 12px;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.nft__card--box-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.nft__card--box-ul-li-p {
+    color: #858584;
+    font-family: "Space Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    /* 13.2px */
+}
+
+.nft__card--box-ul-li-h3 {
+    color: var(--White, #FFF);
+    margin-top: 8px;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+/* nft component's style end */
+.magic {
+    margin-top: 80px;
+    background-image: url("../assets/images/home/artist-background.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 360px;
+}
+
+.magic__top {
+    padding-top: 360px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    width: 150px;
+    height: 44px;
+}
+
+.magic__top--img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.magic__top--p {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.magic__bottom--left-h2 {
+    color: #FFF;
+    margin: 30px 0px;
+    font-family: "Work Sans";
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    /* 56.1px */
+    text-transform: capitalize;
+}
+
+.magic__bottom--left-button {
+    color: #A259FF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 22.4px */
+    display: flex;
+    height: 60px;
+    width: 187px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+}
+
+.magic__bottom--left-button-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.magic__bottom--right {
+    width: 295px;
+    height: 147px;
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    padding: 30px;
+}
+
+.magic__bottom--right-p {
+    color: var(--Text, #FFF);
+    font-family: "Space Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    /* 13.2px */
+}
+
+.magic__bottom--right-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.magic__bottom--right-ul-li-h3 {
+    color: var(--Text, #FFF);
+    font-family: "Space Mono";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 45.6px */
+    text-transform: capitalize;
+}
+
+.magic__bottom--right-ul-li-p {
+    color: var(--Text, #FFF);
+    margin-top: 5px;
+    font-family: "Space Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    /* 13.2px */
+}
+
+.magic__bottom--right-ul-p {
+    color: var(--Text, #FFF);
+    font-family: "Space Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 39.2px */
+    text-transform: capitalize;
+}
+
+.magic__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* magic component's style start */
+
+/* work component's style start */
+.work {
+    margin: 80px 0;
+}
+
+.work__h2 {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 45.6px */
+    text-transform: capitalize;
+}
+
+.work__p {
+    color: var(--White, #FFF);
+    margin-top: 10px;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 35.2px */
+    text-transform: capitalize;
+}
+
+.work__card--box {
+    width: 330px;
+    height: 439px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    padding: 10px 30px;
+}
+
+.work__card--box-img {
+    width: 250px;
+    height: 250px;
+}
+
+.work__card--box-h3 {
+    color: #FFF;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 30.8px */
+    text-transform: capitalize;
+}
+
+.work__card--box-p {
+    color: var(--White, #FFF);
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.work__card {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* work component's style send */
+
+/* contact component's style atart */
+.contact__right--form-input {
+    color: var(--Background, #2B2B2B);
+    display: flex;
+    height: 60px;
+    padding: 16px 0px 16px 20px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: white;
+    width: 425px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    border: none;
+}
+
+.contact__right--form-button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 22.4px */
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #A259FF;
+    border: none;
+    transform: translateX(-30px);
+}
+
+.bx-envelope {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    transform: scale(1.5);
+}
+
+.contact__right--form {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contact__img {
+    width: 425px;
+    height: 310px;
+    border-radius: 20px;
+}
+
+.contact__right--h2 {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 45.6px */
+    text-transform: capitalize;
+}
+
+.contact__right--p {
+    color: var(--White, #FFF);
+    margin-top: 10px;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 35.2px */
+    text-transform: capitalize;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+    height: 430px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 60px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+ul{
+    list-style-type: none;
+}
+
+.contact__right {
+    width: 425px;
+}
+
+@media only screen and (max-width:1000px) {
+    .creators__card {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 60px 0;
+    }
+
+    .creators {
+        text-align: center;
+    }
+
+    .trending__card {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    .trending__card--box:nth-child(3) {
+        display: none;
+        background-color: #A259FF;
+
+    }
+
+    .nft__card--box:nth-child(3) {
+        display: none;
+    }
+    .nft__card{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .hero {
+        margin: 40px 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .hero__left--h1 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+        /* 73.7px */
+        text-transform: capitalize;
+    
+    }
+    
+    .hero__left--p {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+        margin-top: 20px;
+    }
+    
+    .hero__left--buttom {
+        color: #FFF;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 22.4px */
+        display: flex;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: #A259FF;
+        border-radius: 20px;
+        border: none;
+        margin: 30px 0;
+    }
+    
+    .hero__right-bottom-top {
+        padding: 20px;
+    }
+    
+    .hero__left--bottom {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hero__left--bottom-box-h3 {
+        color: var(--White, #FFF);
+        font-family: "Space Mono";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 39.2px */
+        text-transform: capitalize;
+    }
+    
+    .hero__left--bottom-box-p {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 38.384px */
+        text-transform: capitalize;
+    }
+    
+    .hero__right {
+        width: 330px;
+        height: 330px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+    }
+    
+    .hero__right--h3 {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+    .hero__right--bottom {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .hero__right--bottom-img {
+        width: 24px;
+        height: 24px;
+    }
+    .hero__right--img{
+        width: 330px;
+        height: 221px;
+    }
+    .hero__right--bottom-p {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+        margin-left: 12px;
+    }
+    
+    .bx-rocket {
+        margin-right: 10px;
+    }
+    
+    .trending__top--h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+        margin-top: 160px;
+    }
+    
+    .trending__top--p {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+    }
+    
+    .trending__card--box-img {
+        width: 330px;
+        height: 330px;
+    }
+    
+    .trending__card--box-center-img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .trending__card--box-center-p {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        border-radius: 20px;
+        background-color: #A259FF;
+        padding: 32px 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .trending__card--box {
+        width: 330px;
+    }
+    
+    .trending__card--box-center {
+        width: 330px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+    
+    .trending__card--box-center-p {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+    .trending__card--box-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+    
+    .trending__card--box-bottom-img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+    }
+    
+    .trending__card--box-bottom-p {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    
+    .trending__card--box-h3 {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+        margin-top: 15px;
+    }
+    
+    .trending__card {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .creators__top {
+        margin-top: 160px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: end;
+    }
+    
+    .creators__top--left-h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+    }
+    
+    .creators__top--left-p {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+        margin-top: 10px;
+    }
+    
+    .creators__top--button {
+        color: #FFF;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 22.4px */
+        display: flex;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 2px solid var(--Call-to-Action, #A259FF);
+        background-color: transparent;
+        margin-top: 15px;
+    }
+    
+    .creators__card--box-top-number {
+        color: var(--caption-label-text, #858584);
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #2B2B2B;
+        font-family: "Space Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .creators__card--box {
+        width: 330px;
+        height: 100px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        padding: 20px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+    
+    .creators__card--box-top-img {
+        width: 60px;
+        height: 60px;
+    }
+    .creators__card--box-center{
+        margin-top: -20px;
+    }
+    .creators__card--box-h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+        display: block;
+    }
+    
+    .creators__card--box-bottom-p {
+        color: var(--caption-label-text, #858584);
+        text-align: right;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    
+    .creators__card--box-bottom-h3 {
+        color: var(--Text, #FFF);
+        margin-left: 10px;
+        font-family: "Work Sans";
+        font-size: 16px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    
+    .creators__card--box-top {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .creators__card--box-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .creators__card {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 60px 0;
+    }
+    .creators__card--box:nth-child(7) {
+        display: none;
+    }
+    .creators__card--box:nth-child(8) {
+        display: none;
+    }
+    .creators__card--box:nth-child(9) {
+        display: none;
+    }
+    .creators__card--box:nth-child(10) {
+        display: none;
+    }
+    .creators__card--box:nth-child(11) {
+        display: none;
+    }
+    .creators__card--box:nth-child(12) {
+        display: none;
+    }
+    
+    .categories__h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+        margin-top: 160px;
+    }
+    
+    .categories__card {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .categories__card--box {
+        width: 200px;
+        height: 266px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    
+    .categories__card--box-h3 {
+        padding: 20px 30px;
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    .work {
+        margin: 40px 0;
+    }
+    
+    .work__h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+    }
+    
+    .work__p {
+        color: var(--White, #FFF);
+        margin-top: 10px;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+    }
+    
+    .work__card--box {
+        width: 210px;
+        height: 337px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 10px 30px;
+    }
+    
+    .work__card--box-img {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .work__card--box-h3 {
+        color: #FFF;
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+    .work__card--box-p {
+        color: var(--White, #FFF);
+        text-align: center;
+        margin-top: 10px;
+        font-family: "Work Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    
+    .work__card {
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact__right--form-input {
+        color: var(--Background, #2B2B2B);
+        display: flex;
+        height: 60px;
+        padding: 16px 0px 16px 20px;
+        align-items: center;
+        align-self: stretch;
+        border-radius: 20px;
+        background-color: white;
+        width: 300px;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+        border: none;
+    }
+    
+    .contact__right--form-button {
+        color: #FFF;
+        width: 300px;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 22.4px */
+        display: flex;
+        align-items: center;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 20px;
+        background-color: #A259FF;
+        border: none;
+        margin-top: 20px;
+        margin-right: -50px;
+    }
+    
+    .bx-envelope {
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+        transform: scale(1.5);
+    }
+    
+    .contact__right--form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
+    .contact__img {
+        width: 300px;
+        height: 280px;
+        border-radius: 20px;
+    }
+    
+    .contact__right--h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+    }
+    
+    .contact__right--p {
+        color: var(--White, #FFF);
+        margin-top: 10px;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+    }
+    
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        padding: 60px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    
+    .contact__right {
+        width: 300px;
+    }
+    
+    .magic {
+        margin-top: 80px;
+        background-image: url("../assets/images/home/artist-background.png");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 300px;
+        padding-bottom: 60px;
+
+    }
+
+    .magic__top {
+        padding-top: 260px;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        width: 150px;
+        height: 44px;
+    }
+    
+    .magic__top--img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+    }
+    
+    .magic__top--p {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    
+    .magic__bottom--left-h2 {
+        color: #FFF;
+        margin: 30px 0px;
+        font-family: "Work Sans";
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+        /* 56.1px */
+        text-transform: capitalize;
+    }
+    
+    .magic__bottom--left-button {
+        color: #A259FF;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 22.4px */
+        display: flex;
+        height: 60px;
+        width: 187px;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+        background-color: white;
+    }
+    
+    .magic__bottom--left-button-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    
+    .magic__bottom--right {
+        width: 295px;
+        height: 144px;
+        border-radius: 20px;
+        background: rgba(59, 59, 59, 0.50);
+        padding: 30px;
+    }
+    
+    .magic__bottom--right-p {
+        color: var(--Text, #FFF);
+        font-family: "Space Mono";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 13.2px */
+    }
+    
+    .magic__bottom--right-ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .magic__bottom--right-ul-li-h3 {
+        color: var(--Text, #FFF);
+        font-family: "Space Mono";
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+    }
+    
+    .magic__bottom--right-ul-li-p {
+        color: var(--Text, #FFF);
+        margin-top: 5px;
+        font-family: "Space Mono";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 13.2px */
+    }
+    
+    .magic__bottom--right-ul-p {
+        color: var(--Text, #FFF);
+        font-family: "Space Mono";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 39.2px */
+        text-transform: capitalize;
+    }
+    
+    .magic__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media only screen and (max-width:825px) {
+    .categories__card--box {
+        width: 150px;
+        height: 209px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .magic__top {
+        padding-top: 200px;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        width: 150px;
+        height: 44px;
+    }
+    .categories__card--box-h3 {
+        padding: 20px 30px;
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 16px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+}
+@media only screen and (max-width:825px) {
+    .trending__card--box:nth-child(2) {
+        display: none;
+        background-color: #A259FF;
+
+    }
+}
+@media only screen and (max-width:680px){
+    .hero {
+        margin: 40px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .magic__top {
+        padding-top: 180px;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        width: 150px;
+        height: 44px;
+    }
+    .magic__section{
+        transform: translateY(-200px);
+    }
+    .hero__left--h1 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+        /* 73.7px */
+        text-transform: capitalize;
+    
+    }
+    
+    .hero__left--p {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+        margin-top: 20px;
+    }
+    
+    .hero__left--buttom {
+        color: #FFF;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 22.4px */
+        display: flex;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: #A259FF;
+        border-radius: 20px;
+        border: none;
+        margin: 30px 0;
+    }
+    
+    .hero__right-bottom-top {
+        padding: 20px;
+    }
+    
+    .hero__left--bottom {
+        width: 315px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hero__left--bottom-box-h3 {
+        color: var(--White, #FFF);
+        font-family: "Space Mono";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 39.2px */
+        text-transform: capitalize;
+    }
+    
+    .hero__left--bottom-box-p {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 38.384px */
+        text-transform: capitalize;
+    }
+    
+    .hero__right {
+        width: 315px;
+        height: 315px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+    }
+    
+    .hero__right--h3 {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+    .hero__right--bottom {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .hero__right--bottom-img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .hero__right--bottom-p {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+        margin-left: 12px;
+    }
+    
+    .bx-rocket {
+        margin-right: 10px;
+    }
+    .hero__right--img{
+        width: 315px;
+    }
+    .creators__card--box:nth-child(6) {
+        display: none;
+    }
+    .categories__h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+        margin-top: 160px;
+    }
+    
+    .categories__card {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+    
+    .categories__card--box {
+        width: 148px;
+        height: 209px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    
+    .categories__card--box-h3 {
+        padding: 20px 30px;
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    .nft__card--box{
+        margin-top: 20px;
+    }
+    .nft__card--box:nth-child(3) {
+        display: block;
+    }
+    .nft__card{
+        display: flex;
+        flex-direction: column;
+    }
+    .nft__top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nft__top {
+        margin-top: 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nft__top--left-h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+    }
+    
+    .nft__top--left-p {
+        color: var(--White, #FFF);
+        margin-top: 10px;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+    }
+    
+    .nft__top--button {
+        color: #FFF;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 22.4px */
+        display: flex;
+        height: 60px;
+        width: 315px;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 2px solid var(--Call-to-Action, #A259FF);
+        background-color: transparent;
+        margin-top: 20px;
+    }
+    
+    .nft__top--button-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    
+    .nft__card {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nft__card--box {
+        width: 330px;
+        height: 469px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+    }
+    
+    .nft__card--box-bottom {
+        padding: 20px 30px;
+    }
+    
+    .nft__card--box-h3 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+     
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+    .nft__card--box-center-img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .nft__card--box-center {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 5px;
+    
+    }
+    
+    .nft__card--box-center-h3 {
+        color: var(--White, #FFF);
+        margin-left: 12px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    
+    .nft__card--box-ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+    .nft__card--box-ul-li-p {
+        color: #858584;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 13.2px */
+    }
+    
+    .nft__card--box-ul-li-h3 {
+        color: var(--White, #FFF);
+        margin-top: 8px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    .work__h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+    }
+    
+    .work__p {
+        color: var(--White, #FFF);
+        margin-top: 10px;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+    }
+    
+    .work__card--box {
+        width: 315px;
+        height: 157px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 10px 30px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .work__card--box-img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .work__card--box-h3 {
+        color: #FFF;
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+    .work__card--box-p {
+        color: var(--White, #FFF);
+        text-align: center;
+        margin-top: 10px;
+        font-family: "Work Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    
+    .work__card {
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+ .magic__bottom--left-button{
+    width: 315px;
+ }
+}
+@media only screen and (max-width:315px) {
+    .container{
+        max-width: 1046px;
+        width: 33%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .hero {
+        margin: 40px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .magic__top {
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        width: 150px;
+        height: 44px;
+    }
+    .hero__left--h1 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+        /* 73.7px */
+        text-transform: capitalize;
+    
+    }
+    
+    .hero__left--p {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+        margin-top: 20px;
+    }
+    
+    .hero__left--buttom {
+        color: #FFF;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 22.4px */
+        display: flex;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: #A259FF;
+        border-radius: 20px;
+        border: none;
+        margin: 30px 0;
+    }
+    
+    .hero__right-bottom-top {
+        padding: 20px;
+    }
+    
+    .hero__left--bottom {
+        width: 315px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hero__left--bottom-box-h3 {
+        color: var(--White, #FFF);
+        font-family: "Space Mono";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 39.2px */
+        text-transform: capitalize;
+    }
+    
+    .hero__left--bottom-box-p {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 38.384px */
+        text-transform: capitalize;
+    }
+    
+    .hero__right {
+        width: 315px;
+        height: 315px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+    }
+    
+    .hero__right--h3 {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+    .hero__right--bottom {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .hero__right--bottom-img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .hero__right--bottom-p {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+        margin-left: 12px;
+    }
+    
+    .bx-rocket {
+        margin-right: 10px;
+    }
+    .hero__right--img{
+        width: 315px;
+    }
+    .creators__card--box:nth-child(6) {
+        display: none;
+    }
+    .categories__h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+        margin-top: 160px;
+    }
+    
+    .categories__card {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: yellowgreen;
+    }
+    
+    .categories__card--box {
+        width: 148px;
+        height: 209px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    
+    .categories__card--box-h3 {
+        padding: 20px 30px;
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    .nft__card--box{
+        margin-top: 20px;
+    }
+    .nft__card--box:nth-child(3) {
+        display: block;
+    }
+    .nft__card{
+        display: flex;
+        flex-direction: column;
+    }
+    .nft__top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nft__top {
+        margin-top: 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nft__top--left-h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+    }
+    
+    .nft__top--left-p {
+        color: var(--White, #FFF);
+        margin-top: 10px;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+    }
+    
+    .nft__top--button {
+        color: #FFF;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 22.4px */
+        display: flex;
+        height: 60px;
+        width: 315px;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 2px solid var(--Call-to-Action, #A259FF);
+        background-color: transparent;
+        margin-top: 20px;
+    }
+    
+    .nft__top--button-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    
+    .nft__card {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nft__card--box {
+        width: 330px;
+        height: 469px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+    }
+    
+    .nft__card--box-bottom {
+        padding: 20px 30px;
+    }
+    
+    .nft__card--box-h3 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+     
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+    .nft__card--box-center-img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .nft__card--box-center {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 5px;
+    
+    }
+    
+    .nft__card--box-center-h3 {
+        color: var(--White, #FFF);
+        margin-left: 12px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    
+    .nft__card--box-ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+    .nft__card--box-ul-li-p {
+        color: #858584;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 13.2px */
+    }
+    
+    .nft__card--box-ul-li-h3 {
+        color: var(--White, #FFF);
+        margin-top: 8px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    .work__h2 {
+        color: var(--White, #FFF);
+        font-family: "Work Sans";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+    }
+    
+    .work__p {
+        color: var(--White, #FFF);
+        margin-top: 10px;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+    }
+    
+    .work__card--box {
+        width: 315px;
+        height: 157px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 10px 30px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .work__card--box-img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .work__card--box-h3 {
+        color: #FFF;
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 30.8px */
+        text-transform: capitalize;
+    }
+    
+    .work__card--box-p {
+        color: var(--White, #FFF);
+        text-align: center;
+        margin-top: 10px;
+        font-family: "Work Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+    }
+    
+    .work__card {
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+ .magic__bottom--left-button{
+    width: 315px;
+ }
+ .contact__right--form-input {
+    color: var(--Background, #2B2B2B);
+    display: flex;
+    height: 60px;
+    padding: 16px 0px 16px 20px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: white;
+    width: 315px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    border: none;
+}
+
+.contact__right--form-button {
+    color: #FFF;
+    width: 315px;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 22.4px */
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #A259FF;
+    border: none;
+    margin-top: 20px;
+    margin-right: -50px;
+}
+
+.bx-envelope {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    transform: scale(1.5);
+}
+
+.contact__right--form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.contact__img {
+    width: 300px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.contact__right--h2 {
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 45.6px */
+    text-transform: capitalize;
+}
+
+.contact__right--p {
+    color: var(--White, #FFF);
+    margin-top: 10px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 35.2px */
+    text-transform: capitalize;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 60px 0;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.contact__right {
+    width: 300px;
+}
+
+}

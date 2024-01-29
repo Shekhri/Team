@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">   
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/static.css">
     <link rel="stylesheet" href="./css/ranking.css">
     <title>Ranking</title>
 </head>
+
 <body>
     <div class="container">
         <!-- header compomemt start -->
         <div class="header">
             <a href="./index.html">
-                <img class="header__img" src="./assets/images/home/logo.svg" alt="logo">
+                <img class="header__img" src="./assets/images/nft/logo.svg" alt="logo">
             </a>
             <div class="header__right">
                 <ul class="header__right--ul">
@@ -27,17 +35,444 @@
                         <a class="header__right--ul-li-a" href="./rankings.html">Rankings</a>
                     </li>
                     <li class="header__right--ul-li">
-                        <a class="header__right--ul-li-a" href="./create.html">Connect a wallet</a>
+                        <a class="header__right--ul-li-a" href="#">Connect a wallet</a>
                     </li>
+                   
                 </ul>
-                <button class="header__right--button">
-                    <i class='bx bx-user'></i>
-                    Sign Up
-                </button>
+                <a href="./create.html">
+                    <button class="header__right--button">
+                        <i class='bx bx-user'></i>
+                        Sign Up
+                    </button>
+                </a>
             </div>
+            <img class="header__image" src="./assets/images/home/Burger_Menu.svg" alt="image of burger">
         </div>
         <!-- header component end -->
+        <!-- hero component start -->
+        <div class="hero">
+            <h1 class="hero__h1">Top Creators</h1>
+            <p class="hero__p">Check out top ranking NFT artists on the NFT Marketplace.</p>
+        </div>
+        <!-- hero component end -->
+        <!-- all copmonent start -->
+        <div class="all">
+            <div class="all__top">
+                <ul class="all__top--ul-active">
+                    <li class="all__top--ul-li">
+                        <p class="all__top--ul-li-p-active">Today</p>
+                        <hr class="all__top--ul-li-hr">
+                    </li>
+                    <li class="all__top--ul-li">
+                        <p class="all__top--ul-li-p">This Week</p>
+                    </li>
+                    <li class="all__top--ul-li">
+                        <p class="all__top--ul-li-p">This Month</p>
+                    </li>
+                    <li class="all__top--ul-li">
+                        <p class="all__top--ul-li-p">All Time</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="all__sold">
+                <div class="all__sold--none">
+                    <ul class="all__sold--none-ul">
+                        <!-- <li class="all__sold--none-li">
+                            <p class="all__sold--none-ul-li-p-a">#Artist</p>
+                            <div class="end">
+                                <p class="all__sold--none-ul-li-p-b">Change</p>
+                                <p class="all__sold--none-ul-li-p-c">NFTs Sold</p>
+                                <p class="all__sold--none-ul-li-p">Volume</p>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <ul class="all__sold--ul">
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">1</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/girlavatar.png" alt="girl avatar">
+                        <h2 class="all__sold--ul-li-h2">Zain Dokidis</h2>
+
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">2</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/manavatar.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Ruben Carder</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">3</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/ghotsavatar .png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Alfredo Septimus</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">4</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/avatarblue.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Livia Rosser</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">5</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/fox.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Kianna Donin</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">6</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/avatarman.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Kianna Donin</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">7</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar (5).png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Maria Rosser</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">8</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar (6).png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Davis Franci</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">9</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar8.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Kianna Stanton</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">10</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar (7).png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Kianna Stanton</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">11</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/avatar9.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Angel Lubin</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">12</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar Placeholder.png"
+                            alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Allison Torff</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">13</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar Placeholder (1).png"
+                            alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Davis Workman</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">14</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/colorfuldog.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Lindsey Lipshutz</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">15</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar Placeholder (2).png"
+                            alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Randy Carder</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">15</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar Placeholder (3).png"
+                            alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Lydia Culhane</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">16</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/avatar.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Rayna Bator</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">17</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar Placeholder (4).png"
+                            alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Jocelyn Westervelt</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">18</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/badgril.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Marilyn Torff</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">19</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/Avatar Placeholder (5).png"
+                            alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Skylar Levin</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+                    <li class="all__sold--ul-li">
+                        <div class="small">
+                            <p class="all__sold--ul-li-p-small-active">20</p>
+                        </div>
+
+                        <img class="all__sold--ul-li-image" src="./assets/rankings/notgril.png" alt="image avatar">
+                        <h2 class="all__sold--ul-li-h2">Terry Dorwart</h2>
+
+                        <p class="all__sold--ul-li-p-active">+1.41%</p>
+                        <p class="all__sold--ul-li-p">602</p>
+                        <small class="all__sold--ul-li-small">12.4 ETH</small>
+
+
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
     </div>
+      <!-- futter component start -->
+      <div class="futter">
+        <div class="container">
+            <div class="futter__section">
+                <ul class="futter__ul">
+                    <li class="futter__ul--li">
+                        <ul class="futter__ul--li-ul">
+                            <li class="futter__ul--li-ul-li">
+                                <a href="./index.html"><img class="futter__ul--li-ul-li-img" src="./assets/images/nft/logo.svg" alt="logo"></a>
+                            </li>
+                            <li class="futter__ul--li-ul-li">
+                                NFT marketplace UI created
+                                <br>
+                                 with Anima for Figma.
+                            </li>
+                            <li class="futter__ul--li-ul-li">
+                                Join our community
+                            </li>
+                            <li class="futter__ul--li-ul-li-li-i">
+                                <i class='bx futter__i bxl-discord-alt'></i>
+                                <i class='bx futter__i bxl-youtube'></i>
+                                <i class='bx futter__i bxl-twitter'></i>
+                                <i class='bx futter__i bxl-instagram'></i>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="futter__ul--li">
+                        <ul class="futter__ul--li-ul">
+                            <li class="futter__ul--li-ul-li-active">
+                                <a class="futter__ul--li-ul-li-a-active" href="#">
+                                    Explore
+                                </a>
+                            </li>
+                            <li class="futter__ul--li-ul-li">
+                                <a class="futter__ul--li-ul-li-a" href="./marketplace.html">
+                                    Marketplace
+                                </a>
+                            </li>
+                            <li class="futter__ul--li-ul-li">
+                                <a class="futter__ul--li-ul-li-a" href="#">
+                                    Connect a wallet
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="futter__ul--li">
+                        <ul class="futter__ul--li-ul">
+                            <li class="futter__ul--li-ul-li-active">
+                                <a class="futter__ul--li-ul-li-a-active" href="#">
+                                    Join our weekly digest
+                                </a>
+                            </li>
+                            <li class="futter__ul--li-ul-li">
+                                Get exclusive promotions & updates
+                                <br>
+                                straight to your inbox.
+                            </li>
+                            <form class="futter__ul--li-ul-form">
+                                <input class="futter__ul--li-ul-form-input" type="text"
+                                    placeholder="Enter your email here" required>
+                                <button class="futter__ul--li-ul-form-button" type="submit">
+                                    Subscribe
+                                </button>
+                            </form>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <hr class="futter__hr">
+            <p class="futter__p">
+                Ⓒ NFT Market. Use this template freely.
+            </p>
+        </div>
+    </div>
+    <!-- futter component end -->
 </body>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 </html>
