@@ -55,6 +55,7 @@
 }
 
 .hero__left--bottom {
+    margin-bottom: 20px;
     width: 400px;
     display: flex;
     justify-content: space-between;
@@ -63,7 +64,7 @@
 
 .hero__left--bottom-box-h3 {
     color: var(--White, #FFF);
-    font-family: "Space Mono";
+    font-family: "Work Sans";
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -992,8 +993,8 @@ ul{
     
     .hero__left--bottom-box-h3 {
         color: var(--White, #FFF);
-        font-family: "Space Mono";
-        font-size: 22px;
+        font-family: "Work Sans";
+        font-size: 18px;
         font-style: normal;
         font-weight: 700;
         line-height: 140%;
@@ -1004,7 +1005,7 @@ ul{
     .hero__left--bottom-box-p {
         color: var(--White, #FFF);
         font-family: "Work Sans";
-        font-size: 16px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 160%;
@@ -1735,7 +1736,7 @@ ul{
     .hero {
         margin: 40px 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     .magic__top {
@@ -1808,7 +1809,7 @@ ul{
     
     .hero__left--bottom-box-h3 {
         color: var(--White, #FFF);
-        font-family: "Space Mono";
+        font-family: "Work Sans";
         font-size: 22px;
         font-style: normal;
         font-weight: 700;
@@ -2225,7 +2226,7 @@ ul{
     
     .hero__left--bottom-box-h3 {
         color: var(--White, #FFF);
-        font-family: "Space Mono";
+        font-family: "Work Sans";
         font-size: 22px;
         font-style: normal;
         font-weight: 700;
@@ -2246,7 +2247,7 @@ ul{
     }
     
     .hero__right {
-        width: 315px;
+        width: 100%;
         height: 315px;
         background-color: #3B3B3B;
         border-radius: 20px;
