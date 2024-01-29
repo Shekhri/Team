@@ -10,7 +10,17 @@
     margin-top: 80px;
 
 }
-
+.all__sold--none-ul{
+    width: 1050px;
+    height: 46px;
+}
+.all__sold--none-ul-li-p-a{
+    width: 430px;
+    height: 22px;
+    position: relative;
+    left: 30px;
+    top: 22px;
+}
 .hero__p {
 
     color: white;
@@ -229,7 +239,7 @@
     align-items: center;
     width: 400px;
     position: relative;
-    left: 12px
+    left: 532px
 }
 
 .all__sold--none-ul-li-p-b {
