@@ -1,0 +1,111 @@
+
+/* hero component's style start */
+.hero{
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__left--h1{
+    color: var(--White, #FFF);
+font-family: "Work Sans";
+font-size: 67px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 73.7px */
+text-transform: capitalize;
+
+}
+.hero__left--p{
+    color: var(--White, #FFF);
+font-family: "Work Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 35.2px */
+text-transform: capitalize;
+margin-top: 20px;
+}
+.hero__left--buttom{
+    color: #FFF;
+text-align: center;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+display: flex;
+height: 60px;
+padding: 0px 50px;
+justify-content: center;
+align-items: center;
+background-color: #A259FF;
+border-radius: 20px;
+border: none;
+margin: 30px 0;
+}
+.hero__right-bottom-top{
+    padding: 20px;
+}
+.hero__left--bottom{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__left--bottom-box-h3{
+    color: var(--White, #FFF);
+font-family: "Space Mono";
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 39.2px */
+text-transform: capitalize;
+}
+.hero__left--bottom-box-p{
+    color: var(--White, #FFF);
+font-family: "Work Sans";
+font-size: 23.99px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 38.384px */
+text-transform: capitalize;
+}
+.hero__right{
+    width: 510px;
+    height: 510px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+.hero__right--h3{
+    color: #FFF;
+font-family: "Work Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 30.8px */
+text-transform: capitalize;
+}
+.hero__right--bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+.hero__right--bottom-img{
+    width: 24px;
+    height: 24px;
+}
+.hero__right--bottom-p{
+    color: #FFF;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+margin-left: 12px;
+}
+.bx-rocket{
+    margin-right: 10px;
+}
+/* hero component's style end */
